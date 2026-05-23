@@ -1,0 +1,231 @@
+/* =======================
+   GLOBAL STYLES
+======================= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =======================
+   HEADER
+======================= */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header-logo{
+    font-size: 24px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar ul li{
+    padding: 15px 20px;
+    transition: 0.3s;
+}
+
+.navbar ul li:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li:hover a{
+    color: white;
+}
+
+/* =======================
+   HERO SECTION
+======================= */
+
+.hero-section{
+    background-image: url(./assests/back_image.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hero-content button{
+    padding: 20px 50px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* =======================
+   CATEGORY SECTION
+======================= */
+
+.category-section{
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.section-subtitle{
+    color: rgb(95, 178, 231);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.category-section h2{
+    margin-bottom: 20px;
+}
+
+.category-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.category-card{
+    width: 30%;
+    background-color: rgb(95, 178, 231);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.category-title{
+    color: rgb(34, 0, 255);
+    margin: 20px 0 15px;
+}
+
+/* =======================
+   ABOUT SECTION
+======================= */
+
+.about-section{
+    width: 1000px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content{
+    max-width: 400px;
+}
+
+.about-content h1{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about-content p{
+    color: #666;
+}
+
+.about-statistics{
+    display: flex;
+    gap: 20px;
+}
+
+.stat-card-1,
+.stat-card-2,
+.stat-card-3{
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.stat-card-1{
+    background-color: yellow;
+}
+
+.stat-card-2{
+    background-color: red;
+}
+
+.stat-card-3{
+    background-color: #dab8a3;
+}
+
+/* =======================
+   COURSE SECTION
+======================= */
+
+.course-section{
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.course-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.course-card{
+    width: 25%;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 19px;
+    margin-bottom: 20px;
+}
+
+.course-section button{
+    background-color: aqua;
+    padding: 15px 40px;
+    border-radius: 50px 0 50px 0;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* =======================
+   FOOTER CONTACT SECTION
+======================= */
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contact-card{
+    width: 30%;
+    background-color: rgb(95, 178, 231);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
